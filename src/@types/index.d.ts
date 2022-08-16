@@ -1,5 +1,5 @@
 type Color = "red" | "yellow" | "green" | "blue" | "purple" | "brown";
-type sumbitCallback = (size: number) => void;
+type submitCallback = (size: number) => void;
 
 interface Flood {
   color: Color;

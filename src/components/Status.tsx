@@ -59,9 +59,9 @@ export default class Status extends Component<P, S> {
                 onChange={(event) => this.setState({ newSize: +event.currentTarget.value })}
                 />
                 <button
-                  className="sumbit"
+                  className="submit"
                   data-for="button"
-                  data-tip="sumbit"
+                  data-tip="submit"
                   onClick={() => {
                     localStorage.setItem("size", this.state?.newSize.toString())
                     window.location.href = "/";

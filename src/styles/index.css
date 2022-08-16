@@ -21,17 +21,17 @@
   --status-border-color: #9c9c9c;
 
   /*Button*/
-  --sumbit-background-color: #63ce74;
-  --sumbit-border-color: #3d8048;
-  --sumbit-hover-background-color: #80db8f;
-  --sumbit-hover-border-color: #61a56c;
+  --submit-background-color: #63ce74;
+  --submit-border-color: #3d8048;
+  --submit-hover-background-color: #80db8f;
+  --submit-hover-border-color: #61a56c;
 
   --restart-background-color: #8f8f8f;
   --restart-border-color: #575757;
   --restart-hover-background-color: #636363;
   --restart-hover-border-color: #353535;
 
-  /*scroll bar*/
+  /*Scroll bar*/
   --scroll-bar-track: rgb(228, 228, 228);
   --scroll-bar-thumb: rgba(122, 122, 122, .5);
 
@@ -93,15 +93,15 @@ button {
   height: 1.5em;
 }
 
-button.sumbit {
-  background: var(--sumbit-background-color);
-  border: .2em solid var(--sumbit-border-color);
+button.submit {
+  background: var(--submit-background-color);
+  border: .2em solid var(--submit-border-color);
 }
 
-button.sumbit:hover {
+button.submit:hover {
   cursor: pointer;
-  background: var(--sumbit-hover-background-color);
-  border: .2em solid var(--sumbit-hover-border-color);
+  background: var(--submit-hover-background-color);
+  border: .2em solid var(--submit-hover-border-color);
 }
 
 button.restart {
