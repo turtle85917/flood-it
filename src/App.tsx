@@ -10,6 +10,10 @@ function App() {
 
   return (
     <>
+      <div className="mobile">
+        <div className="sorry">죄송합니다.</div>
+        모바일에서는 플레이 할 수 없어요.
+      </div>
       <Game size={size} />
     </>
   );
