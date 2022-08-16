@@ -1,0 +1,42 @@
+div.game {
+  display: grid;
+  grid-template-columns: repeat(4, 5em);
+  justify-content: center;
+}
+
+ul.cell {
+  margin: 0;
+  padding: 0;
+  width: 4em;
+  height: 4em;
+  background: var(--cell-background);
+  border: .5em solid var(--cell-border-color);
+  opacity: .85;
+  list-style: none;
+  cursor: pointer;
+  transition: .15s;
+}
+
+ul.cell.red {
+  background: var(--cell-red-color);
+}
+
+ul.cell.yellow {
+  background: var(--cell-yellow-color);
+}
+
+ul.cell.green {
+  background: var(--cell-green-color);
+}
+
+ul.cell.blue {
+  background: var(--cell-blue-color);
+}
+
+ul.cell.purple {
+  background: var(--cell-purple-color);
+}
+
+ul.cell.brown {
+  background: var(--cell-brown-color);
+}

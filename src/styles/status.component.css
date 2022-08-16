@@ -1,0 +1,37 @@
+section.status {
+  font-family: MainFont;
+  text-align: center;
+  margin-top: .5em;
+  border: .15em solid var(--status-border-color);
+  border-radius: .5em;
+  user-select: none;
+}
+
+section.status article.text ul.preview {
+  display: inline-block;
+  width: .95em;
+  height: .95em;
+  border: .1em solid var(--cell-border-color);
+  opacity: 1;
+  transition: .15s;
+}
+
+section.status article.text ul.preview:hover {
+  cursor: default;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+section.status div.desc {
+  display: inline-flex;
+  color: var(--desc-color);
+}
+
+span.before {
+  text-decoration: line-through;
+  text-decoration-thickness: .15em;
+}
+
+span.after {
+  color: var(--after-color);
+}

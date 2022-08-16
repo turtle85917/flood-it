@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="540" viewBox="0 0 200 200">
+  <g>
+    <title>공1</title>
+    <ellipse ry="50" rx="50" id="circle_1" cy="50" cx="50"  stroke="#000" fill="#bb6363" />
+  </g>
+  <g>
+    <title>공2</title>
+    <ellipse ry="50" rx="50" id="circle_2" cy="50" cx="150"  stroke="#000" fill="#6c74b6" />
+  </g>
+  <g>
+    <title>공3</title>
+    <ellipse ry="50" rx="50" id="circle_3" cy="150" cx="50"  stroke="#000" fill="#947c49" />
+  </g>
+  <g>
+    <title>공4</title>
+    <ellipse ry="50" rx="50" id="circle_4" cy="150" cx="150"  stroke="#000" fill="#9863bb" />
+  </g>
+</svg>
